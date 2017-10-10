@@ -22,5 +22,6 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  devtool: "#inline-source-map"
 };
